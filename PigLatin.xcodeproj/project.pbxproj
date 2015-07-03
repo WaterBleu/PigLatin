@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BD20BC081B46E7EC00DB7FCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD20BC071B46E7EC00DB7FCD /* main.m */; };
+		BD20BC101B46E80800DB7FCD /* PigLatin.m in Sources */ = {isa = PBXBuildFile; fileRef = BD20BC0F1B46E80800DB7FCD /* PigLatin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		BD20BC041B46E7EC00DB7FCD /* PigLatin */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PigLatin; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD20BC071B46E7EC00DB7FCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD20BC0E1B46E80800DB7FCD /* PigLatin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PigLatin.h; sourceTree = "<group>"; };
+		BD20BC0F1B46E80800DB7FCD /* PigLatin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PigLatin.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				BD20BC071B46E7EC00DB7FCD /* main.m */,
+				BD20BC0E1B46E80800DB7FCD /* PigLatin.h */,
+				BD20BC0F1B46E80800DB7FCD /* PigLatin.m */,
 			);
 			path = PigLatin;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD20BC081B46E7EC00DB7FCD /* main.m in Sources */,
+				BD20BC101B46E80800DB7FCD /* PigLatin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
